@@ -1,0 +1,47 @@
+body{
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 1.2rem;
+}
+header{
+    background-color: #33cc00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #000033;
+}
+
+.header__name{
+    display: flex;
+    align-items: center;
+}
+.header__logo{
+    margin: 0px 0px 0px 6px;
+    width: 3rem;
+}
+
+.header__namefind{
+    margin: 0px 4px 0px 4px;
+    font-size: 2rem;
+}
+
+.header__loginseccion{
+    display: flex;
+    align-items: center;
+   
+}
+
+.header__botonregistro{
+    font-size: 1rem;
+    margin: 0.5rem;
+    background-color:white;
+    border-color: green;
+    padding: 8px;
+    border-radius: 20px;
+    border: solid 3px;
+    font-weight: 600;
+}
+
+.header__login{
+    width: 1.3rem;
+    margin: 6px;
+}
